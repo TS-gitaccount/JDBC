@@ -1,0 +1,10 @@
+CREATE TABLE public.example
+(
+    id integer,
+    name character varying NOT NULL,
+    doj date,
+    PRIMARY KEY (id)
+);
+
+ALTER TABLE IF EXISTS public.example
+    OWNER to postgres;
