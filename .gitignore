@@ -1,16 +1,53 @@
-# Build output
-target/
+# ---------- Build output ----------
+JDBC-Demo/target/
+**/target/
 
-# IDE - Eclipse
+# ---------- Eclipse ----------
 .metadata/
-.settings/
-.classpath
-.project
+JDBC-Demo/.settings/
+JDBC-Demo/.classpath
+JDBC-Demo/.project
+**/.settings/
+**/.classpath
+**/.project
 
-# IDE - IntelliJ
+# ---------- IntelliJ IDEA ----------
 .idea/
 *.iml
+*.ipr
+*.iws
+out/
 
-# OS
+# ---------- VS Code ----------
+.vscode/
+
+# ---------- NetBeans ----------
+nbproject/
+nbbuild/
+nbdist/
+.nb-gradle/
+
+# ---------- Maven ----------
+dependency-reduced-pom.xml
+release.properties
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+
+# ---------- Logs ----------
+*.log
+
+# ---------- OS files ----------
 .DS_Store
 Thumbs.db
+desktop.ini
+
+# ---------- Compiled class files ----------
+*.class
+
+# ---------- Packaged files ----------
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
