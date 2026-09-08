@@ -1,0 +1,16 @@
+# Build output
+target/
+
+# IDE - Eclipse
+.metadata/
+.settings/
+.classpath
+.project
+
+# IDE - IntelliJ
+.idea/
+*.iml
+
+# OS
+.DS_Store
+Thumbs.db
